@@ -1,0 +1,386 @@
+.main
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main div
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+#bootstrap
+{
+    background-color: #890000;
+    width: 100%;
+    height: 150px;
+    color: #ffffff;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+#content-tabs
+{
+    position: absolute;
+    top: 5px;
+    left: 325px;
+    right: 0px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.content-tab
+{
+    display: inline-block;
+    margin-right: 30px !important;
+    width: 100px;
+    height: 23px;
+    background-color: #580000;
+    text-align: center;
+    padding-top: 75px !important;
+    border: thin #580000 solid;
+}
+
+.content-tab:hover
+{
+    background-color: #bc8484;
+}
+
+.content-tab.active
+{
+    background-color: #bc8484;
+}
+
+.content-tab#tab-products
+{
+    background-image: url("links/products.png");
+}
+
+.content-tab#tab-services
+{
+    background-image: url("links/services.png");
+}
+
+.content-tab#tab-promotions
+{
+    background-image: url("links/promotions.png");
+}
+
+.content-tab#tab-support
+{
+    background-image: url("links/support.png");
+}
+
+.content-tab#tab-contact
+{
+    background-image: url("links/contacts.png");
+}
+
+.content-tab#tab-client
+{
+    background-image: url("links/customer.png");
+}
+
+#content-details
+{
+    position: absolute;
+    top: 120px;
+    right: 20px;
+}
+
+#sitemap
+{
+    background-color: #fffaf0;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    bottom: 0px;
+    width: 300px;
+}
+
+#logo
+{
+    background-image: url("logo.png");
+    width: 300px;
+    height: 110px;
+}
+
+#sitemap-shadow
+{
+    position: absolute;
+    top: 150px;
+    bottom: 0px;
+    left: 300px;
+    width: 5px;
+}
+
+.shadow-right
+{
+    background: #d2d2d2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #d2d2d2 , #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #d2d2d2 , #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #d2d2d2 , #ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #d2d2d2 , #ffffff); /* Standard syntax */
+}
+
+.shadow-bottom
+{
+    background: #d2d2d2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(top, #d2d2d2 , #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom, #d2d2d2 , #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom, #d2d2d2 , #ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom, #d2d2d2 , #ffffff); /* Standard syntax */
+}
+
+#menu
+{
+    width: 270px;
+    border-top: thin #000000 solid;
+    position: absolute;
+    top: 120px;
+    bottom: 0px;
+    left: 30px;
+}
+
+.menu-item
+{
+    font-weight: bold;
+    font-size: 11pt;
+    padding-left: 20px !important;
+    padding-top: 15px !important;
+    height: 30px;
+    width: 250px;
+    margin-bottom: 10px !important;
+}
+
+.menu-item:hover
+{
+    background-color: #e8e3da;
+}
+
+.menu-item.active
+{
+    background-color: #e8e3da;
+}
+
+#view
+{
+    position: absolute;
+    top: 155px;
+    left: 305px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.dialog
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    height: 150px;
+    width: 300px;
+    background-color: #fffaf0;
+    color: #000000;
+    font-weight: bold;
+}
+
+.main.dialog-alert div
+{
+    width: 100%;
+}
+
+.main.dialog-icon
+{
+    color: #fa7a23;
+}
+
+.spinner
+{
+    width: 100%;
+    height: 100%;
+    background: url("spinner.gif") no-repeat center center;
+    -webkit-background-size: 300px 225px;
+    -moz-background-size: 300px 225px;
+    -o-background-size: 300px 225px;
+    background-size: 300px 225px;
+}
+
+.inactive
+{
+    display: none;
+}
+
+.hyperlink
+{
+    cursor: pointer;
+}
+
+.content
+{
+    width: 100%;
+    height: 100%;
+}
+
+.view-screen
+{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.filters
+{
+    min-width: 400px;
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+    margin-bottom: 10px !important;
+    box-shadow: 0px 5px 5px #d2d2d2;
+    border-radius: 15px;
+    height: 40px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14pt;
+    background-color: #a74f15;
+}
+
+.filter
+{
+    height: 40px;
+    display: inline-block;
+}
+
+.list .detail
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 8px;
+    min-width: 400px;
+    height: 150px;
+}
+
+.detail .shadow-right
+{
+    height: 147px;
+    width: 5px;
+    float: right;
+}
+
+.detail .item
+{
+    height: 145px;
+    background-color: #fffaf0;
+    overflow: hidden;
+    border-top: thin #dbdbdb solid;
+    border-left: thin #dbdbdb solid;
+    border-bottom: thin #dbdbdb solid;
+}
+
+.detail .item:hover
+{
+    background-color: #e8e3da;
+}
+
+.thumbnail
+{
+    background-color: #c2c2c2;
+    width: 100px;
+    height: 100px;
+    border: thin #000000 solid;
+    display: inline-block;
+    margin-left: 15px !important;
+    margin-top: 15px !important;
+}
+
+.details
+{
+    display: inline-block;
+    margin-left: 10px !important;
+    margin-top: 15px !important;
+    height: 135px;
+    vertical-align: top;
+}
+
+.heading
+{
+    color: #890000;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+.field
+{
+    color: #000000;
+    font-weight: bold;
+    margin-bottom: 4px !important;
+}
+
+.pages
+{
+    margin: 5px 50px 10px 50px !important;
+    min-width: 400px;
+    height: 60px;
+}
+
+.button
+{
+    background-color: #a74f15;
+    border-top: thin #d2d2d2 solid;
+    border-left: thin #d2d2d2 solid;
+    box-shadow: 2px 2px 5px #d2d2d2;
+    color: #ffffff;
+    text-align: center;
+}
+
+.button:hover
+{
+    background-color: #e8a274;
+    color: #000000;
+}
+
+.button.page
+{
+    padding-top: 12px;
+    width: 120px;
+    margin-top: 5px;
+    vertical-align: top;
+    height: 25px;
+}
+
+.button.page.next
+{
+    float: right;
+}
+
+.button.page.back
+{
+    float: left;
+}
+
+.button.page.disabled
+{
+    background-color: #584e41;
+    color: #ffffff;
+    cursor: default;
+}
+
+.column
+{
+    display: inline-block;
+}
+
+.row
+{
+    border: solid;
+    border-width: thin;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.table
+{
+    display: table;
+}
